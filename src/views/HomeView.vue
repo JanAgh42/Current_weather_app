@@ -12,14 +12,14 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import API_KEY from '@/API_KEYS.txt';
 
 export default {
   name: 'HomeView',
   data() {
     return {
       location: "",
-      key: "3b6e3b20721e281333a740cbd5538da5",
+      key: API_KEY,
       coords: {
         latitude: "",
         longitude: ""

@@ -2,6 +2,7 @@
 node_modules
 /dist
 
+API_KEYS.txt
 
 # local env files
 .env.local
